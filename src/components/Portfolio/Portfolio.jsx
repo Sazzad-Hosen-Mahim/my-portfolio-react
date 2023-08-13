@@ -1,56 +1,36 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets//money-trek.png'
+import IMG2 from '../../assets/photography.png'
+import IMG3 from '../../assets/car.png'
+
 
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard',
-    github: 'https://github.com',
-    demo: 'https://facebook.com',
+    title: 'Money Trek',
+    client: 'https://github.com/Sazzad-Hosen-Mahim/money-trek-client',
+    server: "https://github.com/Sazzad-Hosen-Mahim/final-money-trek",
+    demo: 'https://money-trek.netlify.app/',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Mental Cure',
-    github: 'https://github.com',
-    demo: 'https://facebook.com',
+    title: 'Luxury Photography',
+    client: 'https://github.com/Sazzad-Hosen-Mahim/photography-client',
+    server: "https://github.com/Sazzad-Hosen-Mahim/photography-client",
+    demo: 'https://luxury-photography.netlify.app/',
   },
   {
     id: 3,
     image: IMG3,
-    title: 'E-Commerce application',
-    github: 'https://github.com',
-    demo: 'https://facebook.com',
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Book shop',
-    github: 'https://github.com',
-    demo: 'https://facebook.com',
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'School Management System',
-    github: 'https://github.com',
-    demo: 'https://facebook.com',
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Electric Voting System',
-    github: 'https://github.com',
-    demo: 'https://facebook.com',
-  },
+    title: 'Car Doctor',
+    client: 'https://github.com/Sazzad-Hosen-Mahim/car-services-client',
+    server: "https://github.com/Sazzad-Hosen-Mahim/car-services-client",
+    demo: 'https://genius-car-65b21.web.app/',
+  }
 ]
 
 const Portfolio = () => {
@@ -61,7 +41,7 @@ const Portfolio = () => {
 
       <div className="container portfolio-container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({id, image, title, client, server, demo}) => {
             return (
               <article key={id} className='portfolio-item'>
           <div className='portfolio-item-img'>
@@ -69,7 +49,8 @@ const Portfolio = () => {
           </div>
           <h3>{title}</h3>
             <div className="portfolio-item-cta">
-            <a href={github} className='btn' target='_blank'>Github</a>
+            <a href={client} className='btn' target='_blank'>Client</a>
+            <a href={server} className='btn' target='_blank'>Server</a>
             <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
         </article>

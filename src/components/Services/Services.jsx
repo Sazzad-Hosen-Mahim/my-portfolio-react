@@ -16,24 +16,17 @@ const Services = () => {
           <ul className='service-list'>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Ensuring seamless experiences across various devices and screen sizes.</p>
             </li>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p> Integrating user feedback into design updates for continuous improvement.</p>
             </li>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Ensuring designs meet accessibility standards to accommodate users with disabilities.</p>
             </li>
-            <li>
-              <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
+            
             
           </ul>
         </article>
@@ -46,27 +39,23 @@ const Services = () => {
           <ul className='service-list'>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Building complete web applications, handling both front-end and back-end development.</p>
             </li>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Creating responsive application that adapts with all kind of devices.</p>
             </li>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Building server-side logic, databases, and RESTful APIs</p>
             </li>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Designing efficient database structure.</p>
             </li>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Creating fully responsive landing page.</p>
             </li>
             
           </ul>
@@ -74,25 +63,29 @@ const Services = () => {
         {/* END of Web Development  */}
         <article className='service'>
           <div className="service-head">
-            <h3>Content Creation</h3>
+            <h3>Website maintenance </h3>
           </div>
 
           <ul className='service-list'>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Identify bugs and issues that may arise and fixing this</p>
             </li>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Monitoring performance optimization</p>
             </li>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Verifying that the web application remains responsive and functional across various browser.</p>
             </li>
             <li>
               <GiCheckMark className='service-list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Optimizing and maintaining database</p>
+            </li>
+            <li>
+              <GiCheckMark className='service-list-icon' />
+              <p>Managing code changes and updates using version control systems</p>
             </li>
             
             

@@ -36,8 +36,8 @@ const Experience = () => {
                 <article className='experience-details'>
                   <BsPatchCheckFill className='experience-details-icon'/>
                   <div>
-                  <h4>Bootstrap</h4>
-                  <small className='text-light'>Experienced</small>
+                  <h4>Material UI</h4>
+                  <small className='text-light'>Basic</small>
                   </div>
                 </article>
                 <article className='experience-details'>
@@ -77,23 +77,29 @@ const Experience = () => {
                 <article className='experience-details'>
                   <BsPatchCheckFill className='experience-details-icon'/>
                   <div>
-                  <h4>PHP</h4>
+                  <h4>Mongoose</h4>
                   <small className='text-light'>Intermediate</small>
                   </div>
                 </article>
                 <article className='experience-details'>
                   <BsPatchCheckFill className='experience-details-icon'/>
                   <div>
-                  <h4>MySQL</h4>
-                  <small className='text-light'>Basic</small>
+                  <h4>Version Control</h4>
+                  <small className='text-light'>Intermediate</small>
                   </div>
                 </article>
-                
                 <article className='experience-details'>
                   <BsPatchCheckFill className='experience-details-icon'/>
                   <div>
-                  <h4>REST</h4>
+                  <h4>RESTful APIs</h4>
                   <small className='text-light'>Experienced</small>
+                  </div>
+                </article>
+                <article className='experience-details'>
+                  <BsPatchCheckFill className='experience-details-icon'/>
+                  <div>
+                  <h4>Web Sockets</h4>
+                  <small className='text-light'>Basic</small>
                   </div>
                 </article>
               </div>

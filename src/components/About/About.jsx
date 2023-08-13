@@ -22,13 +22,13 @@ const About = () => {
             <article className='about-cart'>
               <RiAwardFill className='about-icon'/>
               <h5>Experience</h5>
-              <small>2+ years working!</small>
+              <small>1.5+ years working!</small>
             </article>
 
             <article className='about-cart'>
               <FiUsers className='about-icon'/>
               <h5>Clients</h5>
-              <small>50+ Worldwide</small>
+              <small>10+ Worldwide</small>
             </article>
 
             <article className='about-cart'>
