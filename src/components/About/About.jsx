@@ -38,7 +38,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, hic debitis odit quibusdam molestiae unde doloremque culpa enim fugit quam necessitatibus laboriosam dolorem soluta dolores eum omnis consectetur, ea reiciendis.</p>
+          <p>I am Sazzad Hosen. I am an entry level full stack web developer. I worked on various project worldwide. Worked through 1000+ hours of learning Javascript, ReactJS, NodeJS, and MongoDB. I am very passionate about my work and also adaptive to the new technology rapidly. I love to work in a challenging environment in a challenging position. I am a detail-oriented, self-independent, and task-driven Web Developer with the ability to identify and provide the technological needs of companies through ingenious innovation.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
         </div>
