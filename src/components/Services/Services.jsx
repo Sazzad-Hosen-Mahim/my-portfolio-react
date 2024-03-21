@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section id='services'>
       <h5>What I offer</h5>
-      <h2>Services</h2>
+      <h2>My Services</h2>
       <div className="container services-container">
         <article className='service'>
           <div className="service-head">

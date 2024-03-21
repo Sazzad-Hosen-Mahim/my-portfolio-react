@@ -9,13 +9,13 @@ const Header = () => {
   return (
     <header>
       <div className="container header-container">
-        <h5>Hello I'm</h5>
-        <h1>Sazzad Hosen</h1>
-        <h5 className="text-light">Full Stack Developer</h5>
+        <h5 data-aos="fade-right" data-aos-duration="2000">Hello I'm</h5>
+        <h1 data-aos="fade-left" data-aos-duration="2000">Sazzad Hosen</h1>
+        <h5 data-aos="flip-left" data-aos-duration="2000" className="text-light">Full Stack Developer</h5>
         <CTA></CTA>
         <HeaderSocial/>
 
-        <div className="me">
+        <div data-aos="zoom-in" data-aos-duration="2000" className="me">
           <img src={ME} alt="" />
         </div>
 

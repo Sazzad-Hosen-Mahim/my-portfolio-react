@@ -9,7 +9,9 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience-container">
-        <div className="experience-frontend">
+        <div className="experience-frontend" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
               <h3>Frontend Development</h3>
               <div className="experience-content">
                 <article className='experience-details'>
@@ -57,7 +59,9 @@ const Experience = () => {
               </div>
         </div>
       {/* FRontend section end  */}
-        <div className="experience-backend">
+        <div className="experience-backend" data-aos="flip-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
         <h3>Backend Development</h3>
               <div className="experience-content">
                 <article className='experience-details'>

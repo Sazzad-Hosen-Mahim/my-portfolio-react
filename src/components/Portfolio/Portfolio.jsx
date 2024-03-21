@@ -1,8 +1,10 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets//money-trek.png'
-import IMG2 from '../../assets/photography.png'
-import IMG3 from '../../assets/car.png'
+import IMG1 from '../../assets/ezy-farming-image(2).png'
+import IMG2 from '../../assets/query-bytes-image.png'
+import IMG3 from '../../assets/money-trek.png'
+import IMG4 from '../../assets/photography.png'
+import IMG5 from '../../assets/car.png'
 
 
 
@@ -10,27 +12,44 @@ const data = [
   {
     id: 1,
     image: IMG1,
+    title: "Ezy Farming",
+    client: "https://github.com/Sazzad-Hosen-Mahim/ezy-firm-client",
+    server: "https://github.com/Sazzad-Hosen-Mahim/ezy-farm-server",
+    demo: "https://ezy-farming.netlify.app/",
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: "Query Bytes",
+    client: "https://github.com/Sazzad-Hosen-Mahim/query-byte-client",
+    server: "https://github.com/Sazzad-Hosen-Mahim/query-byte-server",
+    demo: "https://query-bytes.netlify.app/",
+  },
+  {
+    id: 3,
+    image: IMG3,
     title: 'Money Trek',
     client: 'https://github.com/Sazzad-Hosen-Mahim/money-trek-client',
     server: "https://github.com/Sazzad-Hosen-Mahim/final-money-trek",
     demo: 'https://money-trek.netlify.app/',
   },
   {
-    id: 2,
-    image: IMG2,
+    id: 4,
+    image: IMG4,
     title: 'Luxury Photography',
     client: 'https://github.com/Sazzad-Hosen-Mahim/photography-client',
     server: "https://github.com/Sazzad-Hosen-Mahim/photography-client",
     demo: 'https://luxury-photography.netlify.app/',
   },
   {
-    id: 3,
-    image: IMG3,
+    id: 5,
+    image: IMG5,
     title: 'Car Doctor',
     client: 'https://github.com/Sazzad-Hosen-Mahim/car-services-client',
     server: "https://github.com/Sazzad-Hosen-Mahim/car-services-client",
     demo: 'https://genius-car-65b21.web.app/',
-  }
+  },
+  
 ]
 
 const Portfolio = () => {
