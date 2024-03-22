@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets//mahim5.png'
+import ME from '../../assets/about-mahim-new.jpg'
 import {RiAwardFill} from 'react-icons/ri'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -25,7 +25,7 @@ const About = () => {
               data-aos-duration="2000">
               <RiAwardFill className='about-icon'/>
               <h5>Experience</h5>
-              <small>1.5+ years working!</small>
+              <small>2+ years working!</small>
             </article>
 
             <article className='about-cart' data-aos="flip-left"
@@ -33,7 +33,7 @@ const About = () => {
               data-aos-duration="2000">
               <FiUsers className='about-icon'/>
               <h5>Clients</h5>
-              <small>10+ Worldwide</small>
+              <small>3+ Worldwide</small>
             </article>
 
             <article className='about-cart' data-aos="fade-left"
@@ -41,7 +41,7 @@ const About = () => {
               data-aos-duration="2000">
               <VscFolderLibrary className='about-icon'/>
               <h5>Projects</h5>
-              <small>23+ Completed</small>
+              <small>14+ Completed</small>
             </article>
           </div>
 

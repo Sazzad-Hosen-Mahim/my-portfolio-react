@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
-import ME from '../../assets/mahim2.png'
+import ME from '../../assets/mahim-head-new.png'
 import './HeaderSocial'
 import HeaderSocial from './HeaderSocial'
 

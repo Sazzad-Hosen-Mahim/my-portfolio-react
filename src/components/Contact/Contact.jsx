@@ -33,8 +33,8 @@ const Contact = () => {
               data-aos-duration="2000">
               <MdOutlineEmail className='contact-option-icon'/>
               <h4>Email</h4>
-              <h5>mmahim67@gmail.com</h5>
-              <a href="mailto:mmahim67@gmail.com" target='_blank'>Send a message</a>
+              <h5>sajjadhosenmahim@gmail.com</h5>
+              <a href="mailto:sajjadhosenmahim@gmail.com" target='_blank'>Send a message</a>
 
             </article>
             <article className='contact-option' data-aos="flip-left"
